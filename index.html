@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -697,3 +698,312 @@
   </script>
  </body>
 </html>
+=======
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Chauhan - Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e293b;
+            --bg-light: #f8fafc;
+            --text-dark: #334155;
+            --text-light: #64748b;
+            --container-width: 1100px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+        }
+
+        /* Header/Hero Section */
+        header {
+            background-color: #fff;
+            padding: 4rem 2rem;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .title {
+            font-size: 1.25rem;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: var(--primary-color);
+            margin: 0 10px;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container */
+        .container {
+            max-width: var(--container-width);
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            color: var(--secondary-color);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--bg-light);
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: var(--secondary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .meta {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        ul {
+            list-style-position: inside;
+            margin-left: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+        }
+
+        /* Grid layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Experience & Projects Cards */
+        .card {
+            margin-bottom: 2rem;
+        }
+
+        .card:last-child {
+            margin-bottom: 0;
+        }
+
+        .tech-stack {
+            color: var(--primary-color);
+            font-weight: 500;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Skills Section */
+        .skill-category {
+            margin-bottom: 1.5rem;
+        }
+
+        .skill-category strong {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--secondary-color);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--secondary-color);
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            header {
+                padding: 3rem 1rem;
+            }
+            .container {
+                padding: 2rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="profile.jpg" alt="Shruti Chauhan" class="profile-img">
+        <h1>Shruti Chauhan [cite: 3]</h1>
+        <p class="title">Integrated B.Tech + M.Tech in Information Technology student [cite: 4]</p>
+        <div class="contact-info">
+            <a href="tel:8962844727">8962844727</a> [cite: 2] |
+            <a href="mailto:shrutichauhan4april4@gmail.com">shrutichauhan4april4@gmail.com</a> [cite: 3] |
+            <a href="#">LinkedIn</a> [cite: 3] |
+            <a href="#">GitHub</a> [cite: 3]
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>Atal Bihari Vajpayee Indian Institute of Information Technology and Management [cite: 4]</h3>
+                <p class="meta">Integrated B.Tech + M.Tech in Information Technology | 2022-2027 [cite: 4]</p>
+            </div>
+            <div class="card">
+                <h3>Airforce School Gwalior [cite: 5]</h3>
+                <p class="meta">Class XII (CBSE) | 2020-2022 [cite: 6, 8]</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience [cite: 7]</h2>
+            <div class="card">
+                <h3>WorldQuant BRAIN - Quantitative Research Consultant [cite: 9, 10]</h3>
+                <p class="meta">Remote | August 2025 – October 2025 [cite: 11]</p>
+                <ul>
+                    <li>Developed and backtested mathematical models (Alphas) utilizing historical financial data to predict stock price movements. [cite: 12]</li>
+                    <li>Analyzed large-scale datasets using statistical methods to optimize signal performance and minimize drawdown risk. [cite: 13]</li>
+                    <li>Simulated trading strategies in a competitive environment, achieving consistent performance across various market conditions. [cite: 14]</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>NullClass - Web-Development Intern [cite: 15, 16]</h3>
+                <p class="meta">Remote | December 2024 – March 2025 [cite: 17]</p>
+                <ul>
+                    <li>Integrated Google and phone-based authentication for secure user login, and implemented a "Forgot Password" system with OTP verification. [cite: 18]</li>
+                    <li>Developed real-time notification features using the Notification API to alert users about answer updates and upvotes. [cite: 19]</li>
+                    <li>Implemented a video upload feature with validation on size and schedule, designed a reward system with point transfers, and added login history tracking. [cite: 20]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects [cite: 21]</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Learnflow - A content sharing platform [cite: 22]</h3>
+                    <p class="meta">June 2024 [cite: 24]</p>
+                    <p class="tech-stack">EJS, Node.js, Express, AWS, MongoDB [cite: 23]</p>
+                    <ul>
+                        <li>Crafted a full-stack application with the MERN stack, integrating Google OAuth 2.0 for secure authentication. [cite: 25]</li>
+                        <li>Utilized role-based access control with 2 levels of permissions for creators to upload content and students to view it. [cite: 26]</li>
+                        <li>Implemented hierarchical threaded comments and configured AWS S3 uploads with pre-signed URLs behind a CDN for secure, efficient media delivery. [cite: 27]</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>CodeIt - A NLP based search engine [cite: 28, 29]</h3>
+                    <p class="meta">April 2024 [cite: 30]</p>
+                    <p class="tech-stack">EJS, Node.js, Express, NLP, Selenium [cite: 31]</p>
+                    <ul>
+                        <li>Created a high-performance NLP-based search engine using the MERN stack, supporting concurrent user queries. [cite: 31]</li>
+                        <li>Scraped and processed 3,000 problems from platforms like LeetCode, InterviewBit, and Codeforces using Selenium. [cite: 32, 33]</li>
+                        <li>Executed edge case handling, utilized the BM 25 and TF-IDF for ranking, and optimized with RAM indexes. [cite: 34]</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>FileBud - Your Personal Cloud Solution [cite: 35]</h3>
+                    <p class="meta">March 2023 [cite: 37]</p>
+                    <p class="tech-stack">MongoDB, Express, Node.js, React.js, Cloudinary [cite: 36]</p>
+                    <ul>
+                        <li>Developed a cloud-based storage app with 1 GB per user, supporting seamless file management and organization. [cite: 38]</li>
+                        <li>Established user authentication, authorization, and Cloudinary file uploads, with folder management, in-browser media viewing, and comprehensive search capabilities. [cite: 39, 40]</li>
+                        <li>Optimized storage with Cloudinary CDN, enabling bitrate streaming and ensuring data consistency using mongoose. [cite: 41]</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills [cite: 42]</h2>
+            <div class="grid-2">
+                <div class="skill-category">
+                    <strong>Languages:</strong>
+                    C++, JavaScript, Python, HTML5, CSS3 [cite: 43]
+                </div>
+                <div class="skill-category">
+                    <strong>Backend/Web:</strong>
+                    Node.js, Express.js, React.js, Next.js, REST APIs, OAuth 2.0, RBAC [cite: 44]
+                </div>
+                <div class="skill-category">
+                    <strong>Cloud/DevOps:</strong>
+                    AWS (Elastic Beanstalk, S3, ELB), Cloudinary, CDN, Pre-signed URLs [cite: 44]
+                </div>
+                <div class="skill-category">
+                    <strong>Search & Data:</strong>
+                    NLP, TF-IDF, BM25, Web Scraping (Selenium), Data Processing [cite: 44]
+                </div>
+                <div class="skill-category">
+                    <strong>Databases:</strong>
+                    MongoDB, Amazon RDS, Firebase Firestore, Mongoose (Schema Design) [cite: 44]
+                </div>
+                <div class="skill-category">
+                    <strong>Tools:</strong>
+                    Git, GitHub, Postman, VS Code [cite: 44]
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements [cite: 45]</h2>
+            <ul>
+                <li><strong>GirlScript Summer of Code (GSSoC '25) Contributor:</strong> Selected as an open-source contributor, actively collaborating on projects to enhance code quality and feature implementation. [cite: 46]</li>
+                <li><strong>JPMorgan Chase & Co. Virtual Experience:</strong> Engineered the backend for the Midas System using Spring Boot to process financial transactions, integrating Kafka for real-time messaging. [cite: 47]</li>
+                <li><strong>JPMorgan Chase & Co. AWS Cloud Engineering Certification:</strong> Earned certification for designing a scalable hosting architecture using AWS Elastic Beanstalk and RDS, optimizing for high availability using S3 and ELB. [cite: 48]</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Shruti Chauhan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+>>>>>>> 804229ed99d74d7ee2cc52c3af9f8b1447e242f8
